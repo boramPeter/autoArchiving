@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>결재시나리오 D</name>
+   <tag></tag>
+   <comment>상신버튼 변수지정
+저장 버튼 변수지정</comment>
+   <testCaseGuid>8b9ff88d-286a-43d0-992f-50dcd6c7ce89</testCaseGuid>
+</TestCaseEntity>

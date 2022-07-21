@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>결재시나리오 A</name>
+   <tag></tag>
+   <comment>상신한문서의 문서번호 가져오기
+결재전의 문서 번호,아이디넘버 확인 변수 지정</comment>
+   <testCaseGuid>2b3212e7-e4c3-4fce-9da3-88e4596b4c8c</testCaseGuid>
+</TestCaseEntity>
