@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "FCCD40FC60A0B0BD403C84A8D83215D7",
+  "keywordClasses": [
+    {
+      "name": "전자결재_우리의릴리즈_PC.LNB_DocumentClassificationList",
+      "keywordMethods": [
+        {
+          "name": "DocumentClassificationList",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "38A06982735E7C822F1C85E103A3F99F",
+  "keywordClasses": [
+    {
+      "name": "전자결재_PC.LNB_referenceFolder",
+      "keywordMethods": [
+        {
+          "name": "referenceFolder",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,41 @@
+{
+  "keywordFileContentHash": "E2E2E9C9ADB78E9A9EC9E0D4CDA73CFB",
+  "keywordClasses": [
+    {
+      "name": "전자결재_우리의릴리즈_M.draftFolder",
+      "keywordMethods": [
+        {
+          "name": "submitted",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "completed",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "saved",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "rejected",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "returned",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collected",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

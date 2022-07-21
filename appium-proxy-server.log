@@ -1,0 +1,24 @@
+ss.add_server_fd(3)
+Listing devices on :61150
+ss.add_fd(4)
+ss.recv fd=4 len=294
+ss.accept server=3 new_client=5
+ss.add_fd(5)
+ss.recv fd=5 len=155
+ws.recv[155]:
+ 47 45 54 20 2F 20 48 54 54 50 2F 31 2E 31 0D 0A           GET / HTTP/1.1..
+ 55 73 65 72 2D 41 67 65 6E 74 3A 20 4A 61 76 61 2F 31 2E  User-Agent: Java/1.
+ 38 2E 30 5F 31 38 31 0D 0A                                8.0_181..
+ 48 6F 73 74 3A 20 6C 6F 63 61 6C 68 6F 73 74 3A 36 31 31  Host: localhost:611
+ 35 30 0D 0A                                               50..
+ 41 63 63 65 70 74 3A 20 74 65 78 74 2F 68 74 6D 6C 2C 20  Accept: text/html, 
+ 69 6D 61 67 65 2F 67 69 66 2C 20 69 6D 61 67 65 2F 6A 70  image/gif, image/jp
+ 65 67 2C 20 2A 3B 20 71 3D 2E 32 2C 20 2A 2F 2A 3B 20 71  eg, *; q=.2, */*; q
+ 3D 2E 32 0D 0A                                            =.2..
+ 43 6F 6E 6E 65 63 74 69 6F 6E 3A 20 6B 65 65 70 2D 61 6C  Connection: keep-al
+ 69 76 65 0D 0A                                            ive..
+ 0D 0A                                                     ..
+ss.remove_fd(5)
+ss.recv fd=4 len=0
+ss.remove_fd(4)
+ss.remove_server_fd(3)

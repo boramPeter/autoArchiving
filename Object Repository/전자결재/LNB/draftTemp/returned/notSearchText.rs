@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>notSearchText</name>
+   <tag></tag>
+   <elementGuidId>48efaf7f-54f1-4bca-9666-467288cd26d5</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//article[@id='mainContent']/div[4]/table/tbody/tr/td/span</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.ico_comm.ico_info3</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>id(&quot;mainContent&quot;)/div[@class=&quot;box_tbl&quot;]/table[@class=&quot;tbl_comm&quot;]/tbody[1]/tr[1]/td[@class=&quot;empty_data&quot;]/span[@class=&quot;ico_comm ico_info3&quot;][count(. | //*[@class = 'ico_comm ico_info3']) = count(//*[@class = 'ico_comm ico_info3'])]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ico_comm ico_info3</value>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;mainContent&quot;)/div[@class=&quot;box_tbl&quot;]/table[@class=&quot;tbl_comm&quot;]/tbody[1]/tr[1]/td[@class=&quot;empty_data&quot;]/span[@class=&quot;ico_comm ico_info3&quot;]</value>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//article[@id='mainContent']/div[4]/table/tbody/tr/td/span</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//td/span</value>
+   </webElementXpaths>
+</WebElementEntity>

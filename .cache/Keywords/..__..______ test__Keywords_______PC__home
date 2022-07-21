@@ -1,0 +1,51 @@
+{
+  "keywordFileContentHash": "6C98B8996597E5BD43FDA9BFB45D6F27",
+  "keywordClasses": [
+    {
+      "name": "전자결재_PC.home",
+      "keywordMethods": [
+        {
+          "name": "login",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "adminChange",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "approvalLine",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "approvalPw",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "deleAppr",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "myStatus",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "myDraft",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "recTemp",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

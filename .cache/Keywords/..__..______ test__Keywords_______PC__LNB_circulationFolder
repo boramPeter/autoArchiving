@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "A27E6D5672F8C81C9690407B227DD067",
+  "keywordClasses": [
+    {
+      "name": "전자결재_PC.LNB_circulationFolder",
+      "keywordMethods": [
+        {
+          "name": "circulationFolder",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,41 @@
+{
+  "keywordFileContentHash": "2B41FA33996AB4D7CB69E92D5C029ABA",
+  "keywordClasses": [
+    {
+      "name": "refer.refer",
+      "keywordMethods": [
+        {
+          "name": "offAtten",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "dayAtten",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "minAtten",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "ovtAtten",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "vac",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "rewVac",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

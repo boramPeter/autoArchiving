@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "6B21B05D2575BD93DDF02B340CDC7C88",
+  "keywordClasses": [
+    {
+      "name": "전자결재_우리의릴리즈_M.departmentDocumentFolder",
+      "keywordMethods": [
+        {
+          "name": "departmentCollaboration",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "departmentInbox",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
