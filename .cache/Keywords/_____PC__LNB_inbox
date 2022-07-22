@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "1E320C774B673BF5AAFC1DC3C219A128",
+  "keywordClasses": [
+    {
+      "name": "전자결재_PC.LNB_inbox",
+      "keywordMethods": [
+        {
+          "name": "unread",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "completed",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "3613E7184A2BB4D831325AA2C9B272C7",
+  "keywordClasses": [
+    {
+      "name": "전자결재_우리의릴리즈_M.documentClassificationList",
+      "keywordMethods": [
+        {
+          "name": "documentClassification",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

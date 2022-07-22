@@ -1,0 +1,46 @@
+{
+  "keywordFileContentHash": "DA4D1F0907101059715ECCB61AC28C0C",
+  "keywordClasses": [
+    {
+      "name": "전자결재_PC.LNB_draftFolder",
+      "keywordMethods": [
+        {
+          "name": "writeDraft",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "submitted",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "completed",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "saved",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "rejected",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "returned",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collected",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

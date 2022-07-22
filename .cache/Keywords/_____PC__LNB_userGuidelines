@@ -1,0 +1,26 @@
+{
+  "keywordFileContentHash": "DA4427556B7099D6140413EAC4C303A2",
+  "keywordClasses": [
+    {
+      "name": "전자결재_PC.LNB_userGuidelines",
+      "keywordMethods": [
+        {
+          "name": "userManual",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "customerService",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "contact",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

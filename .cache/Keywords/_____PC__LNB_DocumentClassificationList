@@ -1,0 +1,41 @@
+{
+  "keywordFileContentHash": "880E691CB49A7A88C999116A26B6E254",
+  "keywordClasses": [
+    {
+      "name": "전자결재_PC.LNB_DocumentClassificationList",
+      "keywordMethods": [
+        {
+          "name": "toApprove",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "inProgress",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "completed",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "rejected",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "returned",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "collected",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

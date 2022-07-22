@@ -1,0 +1,31 @@
+{
+  "keywordFileContentHash": "45878D66C21D006C3851286959743E7F",
+  "keywordClasses": [
+    {
+      "name": "전자결재_우리의릴리즈_M.approvalFolder",
+      "keywordMethods": [
+        {
+          "name": "toApproval",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "completed",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "inProgress",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "rejected",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

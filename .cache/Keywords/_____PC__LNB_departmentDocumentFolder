@@ -1,0 +1,21 @@
+{
+  "keywordFileContentHash": "3615BA693B164EFE084E4FEBB0AD3DC7",
+  "keywordClasses": [
+    {
+      "name": "전자결재_PC.LNB_departmentDocumentFolder",
+      "keywordMethods": [
+        {
+          "name": "departmentCollaboration",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "departmentInbox",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}
