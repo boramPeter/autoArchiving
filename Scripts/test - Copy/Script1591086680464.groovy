@@ -51,3 +51,4 @@ WS.verifyMatch(intentName_text, 'lightTurnOn', false)
 WS.getElementText(findTestObject(null), '')
 
 ///////12312313
+12312313
