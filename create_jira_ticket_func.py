@@ -10,7 +10,7 @@ logger = make_logger("create_jira_ticket_func.py")
 ID = "peter.bo"
 PW = "password"
 
-userAndPass = b64encode(b"daniel.js:password").decode("ascii")
+userAndPass = b64encode(b"peter.bo:password").decode("ascii")
 # print(userAndPass)
 # "ZGFuaWVsLmpzOmRsd2xzdGpyMkA="
 
