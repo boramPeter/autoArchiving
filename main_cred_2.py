@@ -8,7 +8,7 @@ from custom_logger import *
 from text_parsing import *
 
 #==========================
-logger = make_logger("daniel.js-flask")
+logger = make_logger("peter.bo-flask")
 #==========================
 app = Flask(__name__)
 
