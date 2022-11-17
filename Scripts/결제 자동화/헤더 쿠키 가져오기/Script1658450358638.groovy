@@ -30,7 +30,7 @@ import com.kms.katalon.core.testobject.TestObjectProperty as TestObjectProperty
 import org.openqa.selenium.Cookie as Cookie
 import com.kms.katalon.core.testobject.ResponseObject as ResponseObject
 
-RequestObject login = findTestObject('회원가입/CMS_login/cms_login')
+RequestObject login = findTestObject('z_archive/회원가입/CMS_login/cms_login')
 
 login2 = WS.sendRequest(login)
 
@@ -51,8 +51,8 @@ println token3
 //String test = WS.getElementPropertyValue(login, 'Set-Cookie:')
 //String test = login.responseHeaders()
 //println(headerFields['Set-Cookie'])
-//RequestObject product = findTestObject('회원가입/CMS_login/cms_product', [('COOKIE') : token])
-RequestObject product = findTestObject('회원가입/CMS_login/cms_product')
+//RequestObject product = findTestObject('z_archive/회원가입/CMS_login/cms_product', [('COOKIE') : token])
+RequestObject product = findTestObject('z_archive/회원가입/CMS_login/cms_product')
 
 ArrayList HTTPHeader_orderSheet = new ArrayList()
 

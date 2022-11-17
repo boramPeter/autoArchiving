@@ -30,6 +30,6 @@ import com.kms.katalon.core.testobject.TestObjectProperty as TestObjectProperty
 
 String text = "*결제 완료 되었습니다* \n\n"+"test"+"\n\n"+"test"+"\n\n"+"test"+"\n\n"+"test"
 
-RequestObject slackWebhook = findTestObject('결제 자동화/결제 API/webhook', [('Desc') : text ])
+RequestObject slackWebhook = findTestObject('z_archive/결제 자동화/결제 API/webhook', [('Desc') : text ])
 
 WS.sendRequest(slackWebhook)
