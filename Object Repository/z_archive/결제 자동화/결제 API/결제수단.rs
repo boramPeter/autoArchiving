@@ -7,15 +7,14 @@
    <selectorCollection>
       <entry>
          <key>CSS</key>
-         <value></value>
-      </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/section[2]/div[4]</value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@id=&quot;root&quot;]/div/section[2]/div[4]/p</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/section[2]/div[4]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
+      <webElementGuid>b22292aa-3ac0-46e3-a771-ba3ce52a7f62</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>sc-iseIHH dLiKpH order-row</value>
+      <webElementGuid>94d15d2b-8cc1-4f48-9ad5-236e9551cd60</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -40,6 +41,7 @@
       <name>text</name>
       <type>Main</type>
       <value>결제수단PAYCO</value>
+      <webElementGuid>9a8f66ce-b345-43b5-a81c-50047f169ee9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -47,6 +49,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>//*[@id=&quot;root&quot;]/div/section[2]/div[4]/p</value>
+      <webElementGuid>f3d24daa-12d3-4755-92e4-586048d4a716</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -54,6 +57,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/section[2]/div[4]</value>
+      <webElementGuid>f5ef656f-149a-42f9-b0c1-7bc17f95382b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='쿠폰'])[1]/following::div[1]</value>
+      <webElementGuid>dd67e107-8a89-4fcd-af7d-aeb0fc7b36d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='주문상품'])[1]/following::div[2]</value>
+      <webElementGuid>46934743-95c9-4e0b-9d5b-fbbaba47c921</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='최종 결제금액'])[1]/preceding::div[1]</value>
+      <webElementGuid>1446d85c-01e3-4b2a-92c5-0840f95bbb0c</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +89,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//section[2]/div[4]</value>
+      <webElementGuid>cff2512a-c897-480b-ac3f-dee7bbe69777</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +97,7 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '결제수단PAYCO' or . = '결제수단PAYCO')]</value>
+      <webElementGuid>8b9e9c5f-50df-4d4d-9aa0-63fad47fbecf</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,6 +105,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div</value>
+      <webElementGuid>a9323851-d030-40b6-bb8f-78ba0b3dcb81</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -103,6 +113,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='보기'])[1]/following::div[1]</value>
+      <webElementGuid>abcc70c6-ee03-48a7-98c9-baba03412f17</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +121,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='주문 내용을 확인하였으며, 정보 제공 등에 동의합니다.'])[1]/following::div[2]</value>
+      <webElementGuid>b1814787-ef2e-4631-95ff-c47e4833456b</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,6 +129,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[5]/div/div</value>
+      <webElementGuid>55078928-40c8-4f05-9fa4-d5dfbd29ed80</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -124,5 +137,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//div[(text() = '결제수단 선택신용/체크카드PAYCO실시간계좌이체가상계좌기본 결제수단으로 저장저장' or . = '결제수단 선택신용/체크카드PAYCO실시간계좌이체가상계좌기본 결제수단으로 저장저장')]</value>
+      <webElementGuid>dfbb6935-db0b-40b6-97c4-48a140077217</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

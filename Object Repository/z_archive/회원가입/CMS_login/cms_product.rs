@@ -1,39 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>SNS회원가입</name>
+   <name>cms_product</name>
    <tag></tag>
-   <elementGuidId>e139bcaa-aabc-4238-a2d4-8fb9033209ec</elementGuidId>
+   <elementGuidId>3f0b11b1-6a55-4df5-afb3-cd55f780768c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;userId\&quot;: \&quot;${유저아이디}\&quot;,\n  \&quot;email\&quot;: \&quot;${이메일}\&quot;,\n  \&quot;name\&quot;: \&quot;${이름}\&quot;,\n  \&quot;nickname\&quot;: \&quot;${닉네임}\&quot;,\n  \&quot;birthday\&quot;: \&quot;${생년월일}\&quot;,\n  \&quot;sex\&quot;: \&quot;${성별}\&quot;,\n  \&quot;tel\&quot;: \&quot;031-1111-1111\&quot;,\n  \&quot;mobile\&quot;: \&quot;${연락처}\&quot;,\n  \&quot;zip\&quot;: \&quot;12345\&quot;,\n  \&quot;addr\&quot;: \&quot;빗썸라이브\&quot;,\n  \&quot;addr2\&quot;: \&quot;이니셜타워\&quot;,\n  \&quot;joinPath\&quot;: \&quot;${joinPath}\&quot;,\n  \&quot;snsKey\&quot; : \&quot;${snsKey}\&quot;,\n  \&quot;dispYn\&quot;: true,\n  \&quot;foreignerYn\&quot;: false,\n  \&quot;countryCode\&quot;: \&quot;KR\&quot;,\n  \&quot;authYn\&quot;: true,\n  \&quot;serviceAgreeYn\&quot;: true,\n  \&quot;mobileAuthAgreeYn\&quot;: true,\n  \&quot;marketingAgreeYn\&quot;: true,\n  \&quot;ci\&quot;: \&quot;${CI}\&quot;    \n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
+  &quot;contentType&quot;: &quot;application/x-www-form-urlencoded&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;,
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;productNo&quot;,
+      &quot;value&quot;: &quot;102362622&quot;
+    },
+    {
+      &quot;name&quot;: &quot;productName&quot;,
+      &quot;value&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;partnerName&quot;,
+      &quot;value&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;shortcutYn&quot;,
+      &quot;value&quot;: &quot;N&quot;
+    },
+    {
+      &quot;name&quot;: &quot;generalYn&quot;,
+      &quot;value&quot;: &quot;N&quot;
+    },
+    {
+      &quot;name&quot;: &quot;shortcut&quot;,
+      &quot;value&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;shortcutUrl&quot;,
+      &quot;value&quot;: &quot;&quot;
+    },
+    {
+      &quot;name&quot;: &quot;categoryNos&quot;,
+      &quot;value&quot;: &quot;&quot;
+    }
+  ]
 }</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
+   <httpBodyType>x-www-form-urlencoded</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/json</value>
+      <value>application/x-www-form-urlencoded</value>
+      <webElementGuid>f68753fb-f0f5-4cce-962e-c9c76a3dc031</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>apiKey</name>
+      <name>Cookie</name>
       <type>Main</type>
-      <value>live123</value>
+      <value>Set-Cookie: JSESSIONID=AACD8171EDE3B7A7C549EFE1D3E50899; Path=/; HttpOnly</value>
+      <webElementGuid>1cee0a27-7ce4-460b-afe6-a9528855e5a3</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://dev-auth.bithumblive.com:443/auth/snsjoin</restUrl>
+   <restUrl>https://dev2-cms.bithumblive.com/shortcut</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

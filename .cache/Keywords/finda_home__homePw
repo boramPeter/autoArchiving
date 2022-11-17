@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "E9BD44F41ACCDD1515FC5A732CB4089E",
+  "keywordClasses": [
+    {
+      "name": "finda_home.homePw",
+      "keywordMethods": [
+        {
+          "name": "pw",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

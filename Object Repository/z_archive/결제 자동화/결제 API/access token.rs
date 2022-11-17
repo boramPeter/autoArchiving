@@ -21,6 +21,7 @@
       <name>Content-Type</name>
       <type>Main</type>
       <value>application/json</value>
+      <webElementGuid>bbbb4b66-ae9e-4620-8967-ff41c9bf465e</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
@@ -28,6 +29,7 @@
       <name>apiKey</name>
       <type>Main</type>
       <value>live123</value>
+      <webElementGuid>7bcec03d-bd24-4230-a997-27fb0ee6d610</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>

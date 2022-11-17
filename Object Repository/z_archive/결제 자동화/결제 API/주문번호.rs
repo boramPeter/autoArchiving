@@ -10,12 +10,11 @@
          <value>id(&quot;root&quot;)/div[@class=&quot;sc-kmQMED dcYaIU&quot;]/div[@class=&quot;sc-djWRfJ jXnfIg&quot;]/dl[5]/dd[1]</value>
       </entry>
       <entry>
-         <key>XPATH</key>
-         <value>//div[@id='root']/div/div[2]/dl[5]/dd</value>
+         <key>CSS</key>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value></value>
+         <key>XPATH</key>
+         <value>//div[@id='root']/div/div[2]/dl[5]/dd</value>
       </entry>
    </selectorCollection>
    <selectorMethod>BASIC</selectorMethod>
@@ -26,6 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>dd</value>
+      <webElementGuid>f4b579a4-1f55-42b0-ab06-bc1bca82ed72</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -33,6 +33,7 @@
       <name>text</name>
       <type>Main</type>
       <value>202206131228594944</value>
+      <webElementGuid>78622498-0851-49d7-b419-dbd654bec430</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,6 +41,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;root&quot;)/div[@class=&quot;sc-kmQMED dcYaIU&quot;]/div[@class=&quot;sc-djWRfJ jXnfIg&quot;]/dl[5]/dd[1]</value>
+      <webElementGuid>6c52156c-8560-4de7-b229-2a5e51d1ad31</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -47,6 +49,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='root']/div/div[2]/dl[5]/dd</value>
+      <webElementGuid>d5ce5c07-a042-42d2-bffa-f7affe73b590</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -54,6 +57,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='주문번호'])[1]/following::dd[1]</value>
+      <webElementGuid>71ce97d2-b9c8-41f8-a764-dc5bddc9769f</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -61,6 +65,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='입금기한'])[1]/following::dd[2]</value>
+      <webElementGuid>392eb438-1928-4ccc-be98-1733e3fe57cc</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -68,6 +73,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='주문 상세'])[1]/preceding::dd[1]</value>
+      <webElementGuid>e606f199-86a0-462a-a72f-1480568413b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -75,6 +81,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='쇼핑 계속하기'])[1]/preceding::dd[1]</value>
+      <webElementGuid>f5d7bb1c-693e-4f1c-8c1d-bf2c69ab1a02</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,6 +89,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='202206131228594944']/parent::*</value>
+      <webElementGuid>2b73e530-619f-4254-bed0-fbe1d41799eb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -89,6 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//dl[5]/dd</value>
+      <webElementGuid>1317c74a-c531-4611-aa00-e8f207a1da63</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -96,5 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//dd[(text() = '202206131228594944' or . = '202206131228594944')]</value>
+      <webElementGuid>0a89b431-765c-459f-842a-58784e8a1f01</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

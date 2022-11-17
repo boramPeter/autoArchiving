@@ -1,49 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>가상계좌 입금</name>
+   <name>webhook</name>
    <tag></tag>
-   <elementGuidId>d934485a-79ff-435e-b681-a2ebb3d93cc3</elementGuidId>
+   <elementGuidId>874c14f3-4669-48f4-8d3f-a76a44b7634c</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;contentType&quot;: &quot;application/x-www-form-urlencoded&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;,
-  &quot;parameters&quot;: [
-    {
-      &quot;name&quot;: &quot;e_trade_no&quot;,
-      &quot;value&quot;: &quot;${거래번호}&quot;
-    },
-    {
-      &quot;name&quot;: &quot;deposit_no&quot;,
-      &quot;value&quot;: &quot;${계좌번호}&quot;
-    },
-    {
-      &quot;name&quot;: &quot;req_name&quot;,
-      &quot;value&quot;: &quot;${입금자명}&quot;
-    },
-    {
-      &quot;name&quot;: &quot;noti_url&quot;,
-      &quot;value&quot;: &quot;http://alpha-api.e-ncp.com/payments/kcp/callback&quot;
-    }
-  ]
+  &quot;text&quot;: &quot;{\n    \&quot;channel\&quot; : \&quot;#qa팀\&quot;,\n    \&quot;icon_emoji\&quot; : \&quot;:office_worker:\&quot;,\n    \&quot;blocks\&quot;: [\n\t\t{\n\t\t\t\&quot;type\&quot;: \&quot;section\&quot;,\n\t\t\t\&quot;text\&quot;: {\n\t\t\t\t\&quot;type\&quot;: \&quot;mrkdwn\&quot;,\n\t\t\t\t\&quot;text\&quot;:  \&quot;${Desc}\&quot;\n\t\t\t}\n\t\t}\n\t]\n\n}&quot;,
+  &quot;contentType&quot;: &quot;application/json&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;
 }</httpBodyContent>
-   <httpBodyType>x-www-form-urlencoded</httpBodyType>
+   <httpBodyType>text</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/x-www-form-urlencoded</value>
+      <value>application/json</value>
+      <webElementGuid>e33f1cbe-7f55-4bd3-b229-606eb076f4f5</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>http://devadmin.kcp.co.kr/Modules/Noti/TEST_Vcnt_Noti_Proc.jsp</restUrl>
+   <restUrl>https://hooks.slack.com/services/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</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>

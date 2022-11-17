@@ -1,0 +1,15 @@
+{
+  "keywordFileContentHash": "EEB2B962BBE7C1F961C997B81479A076",
+  "keywordClasses": [
+    {
+      "name": "home.homePw",
+      "keywordMethods": [
+        {
+          "name": "pw",
+          "parameters": []
+        }
+      ]
+    }
+  ],
+  "javadocParsed": false
+}

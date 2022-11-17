@@ -1,39 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebServiceRequestEntity>
    <description></description>
-   <name>주문서생성</name>
+   <name>cms_login</name>
    <tag></tag>
-   <elementGuidId>437ce868-13d7-4cfd-8cc0-56834981f3ba</elementGuidId>
+   <elementGuidId>00f312ee-f1ab-447d-8010-27fe6c29a790</elementGuidId>
    <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>false</useRalativeImagePath>
    <connectionTimeout>-1</connectionTimeout>
    <followRedirects>false</followRedirects>
    <httpBody></httpBody>
    <httpBodyContent>{
-  &quot;text&quot;: &quot;{\n  \&quot;products\&quot;: [\n    {\n      \&quot;productNo\&quot;: 102361194,\n      \&quot;optionNo\&quot;: 38223905,\n      \&quot;orderCnt\&quot;: 10,\n      \&quot;optionInputs\&quot;: [],\n      \&quot;channelType\&quot;: \&quot;NAVER_EP\&quot;,\n      \&quot;recurringPaymentDelivery\&quot;: {\n        \&quot;cycleType\&quot;: \&quot;MONTH\&quot;,\n        \&quot;cycle\&quot;: 1,\n        \&quot;date\&quot;: 0\n      }\n    }\n  ],\n  \&quot;productCoupons\&quot;: [],\n  \&quot;cartNos\&quot;: [],\n  \&quot;trackingKey\&quot;: \&quot;\&quot;,\n  \&quot;channelType\&quot;: \&quot;NAVER_EP\&quot;\n}&quot;,
-  &quot;contentType&quot;: &quot;application/json&quot;,
-  &quot;charset&quot;: &quot;UTF-8&quot;
+  &quot;contentType&quot;: &quot;application/x-www-form-urlencoded&quot;,
+  &quot;charset&quot;: &quot;UTF-8&quot;,
+  &quot;parameters&quot;: [
+    {
+      &quot;name&quot;: &quot;id&quot;,
+      &quot;value&quot;: &quot;qatester01&quot;
+    },
+    {
+      &quot;name&quot;: &quot;pw&quot;,
+      &quot;value&quot;: &quot;1111&quot;
+    }
+  ]
 }</httpBodyContent>
-   <httpBodyType>text</httpBodyType>
+   <httpBodyType>x-www-form-urlencoded</httpBodyType>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>Content-Type</name>
       <type>Main</type>
-      <value>application/json</value>
+      <value>application/x-www-form-urlencoded</value>
+      <webElementGuid>bb79a292-23f9-411b-b9f6-c99c84ad18c5</webElementGuid>
    </httpHeaderProperties>
    <httpHeaderProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>apiKey</name>
+      <name>Connection</name>
       <type>Main</type>
-      <value>live123</value>
+      <value>keep-alive</value>
+      <webElementGuid>b6f5d99d-2504-460e-9106-5837ab76073a</webElementGuid>
+   </httpHeaderProperties>
+   <httpHeaderProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>Accept-Encoding</name>
+      <type>Main</type>
+      <value>gzip, deflate, br</value>
+      <webElementGuid>d01d9bce-a66c-4c6e-a2a5-4adba08a6c53</webElementGuid>
    </httpHeaderProperties>
    <katalonVersion>8.2.5</katalonVersion>
    <maxResponseSize>-1</maxResponseSize>
    <migratedVersion>5.4.1</migratedVersion>
    <restRequestMethod>POST</restRequestMethod>
-   <restUrl>https://dev-api.bithumblive.com/v2/order</restUrl>
+   <restUrl>https://dev2-cms.bithumblive.com/login</restUrl>
    <serviceType>RESTful</serviceType>
    <soapBody></soapBody>
    <soapHeader></soapHeader>
