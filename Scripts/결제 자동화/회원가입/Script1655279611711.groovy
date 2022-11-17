@@ -237,7 +237,7 @@ email1.logInfo(email)
 
 if (joinpath == "") {
 	//일반 회원가입 
-	RequestObject join = findTestObject('Object Repository/회원가입/일반회원가입', [('유저아이디') : ID, ('이메일') : email, ('이름') : name, ('닉네임') : nickname, ('생년월일') : birthday, ('성별') : sex, ('연락처') : mobile, ('CI') : CI ])
+	RequestObject join = findTestObject('Object Repository/z_archive/회원가입/일반회원가입', [('유저아이디') : ID, ('이메일') : email, ('이름') : name, ('닉네임') : nickname, ('생년월일') : birthday, ('성별') : sex, ('연락처') : mobile, ('CI') : CI ])
 
 	String userPidValue = 'resultData.userPid'
 
@@ -248,14 +248,14 @@ if (joinpath == "") {
 	//슬랙 발송 
 	String descText = "\n*계정생성 완료 되었습니다* \n\n" + "email : " + email +"\n\n ID : "+ ID + "\n\n 이름 : " + name + "\n\n PW : cip1977" + "\n\n 닉네임 : "+ nickname + "\n\n userPid : " + userPid + "\n\n CI : " + CI
 
-	RequestObject slackWebhook = findTestObject('결제 자동화/결제 API/webhook', [('Desc') : descText])
+	RequestObject slackWebhook = findTestObject('z_archive/결제 자동화/결제 API/webhook', [('Desc') : descText])
 
 	WS.sendRequest(slackWebhook)
 }
 
 if (joinpath != "") {
 	//소셜 회원가입
-	RequestObject join = findTestObject('Object Repository/회원가입/SNS회원가입', [('유저아이디') : ID,('이메일') : email, ('이름') : name, ('닉네임') : nickname, ('생년월일') : birthday, ('성별') : sex, ('연락처') : mobile, ('snsKey') : snsKey, ('joinPath') : joinpath, ('CI') : CI ])
+	RequestObject join = findTestObject('Object Repository/z_archive/회원가입/SNS회원가입', [('유저아이디') : ID,('이메일') : email, ('이름') : name, ('닉네임') : nickname, ('생년월일') : birthday, ('성별') : sex, ('연락처') : mobile, ('snsKey') : snsKey, ('joinPath') : joinpath, ('CI') : CI ])
 	
 	String userPidValue = 'resultData.userPid'
 	
@@ -266,7 +266,7 @@ if (joinpath != "") {
 	//슬랙 발송
 	String descText = "\n*계정생성 완료 되었습니다* \n\n" + "email : " + email + "\n\n ID : "+ ID + "\n\n 이름 : " + name + "\n\n 닉네임 : "+ nickname + "\n\n userPid : " + userPid + "\n\n snsKey : " + snsKey + "\n\n joinPath : " + joinpath + " (K : 카카오, N: 네이버, A: 애플)" + "\n\n CI : " + CI
 	
-	RequestObject slackWebhook = findTestObject('결제 자동화/결제 API/webhook', [('Desc') : descText])
+	RequestObject slackWebhook = findTestObject('z_archive/결제 자동화/결제 API/webhook', [('Desc') : descText])
 	
 	WS.sendRequest(slackWebhook)
 	

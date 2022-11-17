@@ -46,7 +46,7 @@ def PW = "cip1977"
 for (int i = 1; i <= finish; i++) {
 
 //엑세스토큰 발급 
-RequestObject accessToken_Login = findTestObject('결제 자동화/결제 API/access token', [('아이디') : ID, ('비밀번호') : PW])
+RequestObject accessToken_Login = findTestObject('z_archive/결제 자동화/결제 API/access token', [('아이디') : ID, ('비밀번호') : PW])
 
 def getToken = 'resultData.accessToken'
 
@@ -62,9 +62,9 @@ RequestObject orderSheetCreative = null;
 
 //다중 주문서 생성 체크 
 if (multiOrder == 'n') {
-	 orderSheetCreative = findTestObject('결제 자동화/결제 API/주문서생성')	
+	 orderSheetCreative = findTestObject('z_archive/결제 자동화/결제 API/주문서생성')	
 } else {
-	 orderSheetCreative = findTestObject('결제 자동화/결제 API/주문서생성_멀티')	
+	 orderSheetCreative = findTestObject('z_archive/결제 자동화/결제 API/주문서생성_멀티')	
 }
 	ArrayList HTTPHeader_orderSheetCreative = new ArrayList()
 	
@@ -102,7 +102,7 @@ Actions action = new Actions(driver)
 WebUI.delay(2)
 
 //결제수단 가상계좌 확인 
-def payment_method = WebUI.getAttribute(findTestObject('결제 자동화/결제 API/결제수단'), 'textContent').trim()
+def payment_method = WebUI.getAttribute(findTestObject('z_archive/결제 자동화/결제 API/결제수단'), 'textContent').trim()
 
 KeywordLogger payment_methodText = new KeywordLogger()
 
@@ -161,7 +161,7 @@ action.perform()
 
 WebUI.delay(1)
 
-WebUI.selectOptionByValue(findTestObject('결제 자동화/Page_NHN/select_Bank'), 'BK04', true)
+WebUI.selectOptionByValue(findTestObject('z_archive/결제 자동화/Page_NHN/select_Bank'), 'BK04', true)
 
 WebUI.delay(1)
 
@@ -174,7 +174,7 @@ action.perform()
 
 WebUI.delay(2)
 
-WebUI.selectOptionByValue(findTestObject('결제 자동화/Page_NHN/select_Receipt'), '', false)
+WebUI.selectOptionByValue(findTestObject('z_archive/결제 자동화/Page_NHN/select_Receipt'), '', false)
 
 //다음버튼 선택 
 WebElement nextBtn = driver.findElement(By.xpath('//*[@id="wrap"]/div[3]/a'))
@@ -186,10 +186,10 @@ action.perform()
 WebUI.delay(3)
 
 //주문번호 가져오기 
-def orderNoText = WebUI.getAttribute(findTestObject('결제 자동화/결제 API/주문번호'), 'textContent').trim()
+def orderNoText = WebUI.getAttribute(findTestObject('z_archive/결제 자동화/결제 API/주문번호'), 'textContent').trim()
 
 //주문정보에서 거래번호, 계좌번호, 이름 가져오기 
-RequestObject orderSheet = findTestObject('결제 자동화/결제 API/주문정보 가져오기', [('주문번호') : orderNoText])
+RequestObject orderSheet = findTestObject('z_archive/결제 자동화/결제 API/주문정보 가져오기', [('주문번호') : orderNoText])
 
 ArrayList HTTPHeader_orderSheet = new ArrayList()
 
@@ -222,7 +222,7 @@ def account = WS.getElementPropertyValue(orderSheet_Response, accountValue)
 def tradeNo = WS.getElementPropertyValue(orderSheet_Response, tradeNoValue)
 
 //가상계좌 입금
-RequestObject TEST_Vcnt = findTestObject('결제 자동화/결제 API/가상계좌 입금', [('거래번호') : tradeNo, ('계좌번호') : account, ('입금자명') : receiverName])
+RequestObject TEST_Vcnt = findTestObject('z_archive/결제 자동화/결제 API/가상계좌 입금', [('거래번호') : tradeNo, ('계좌번호') : account, ('입금자명') : receiverName])
 
 WS.sendRequest(TEST_Vcnt)
 
@@ -251,7 +251,7 @@ if (i == finish) {
 	
 	String descText = "*결제 완료 되었습니다* \n\n"+"ID : "+ ID + "\n\n PW : " + PW + "\n\n 결제상태 : "+ orderStatusTypeLabel + "\n\n 주문번호 : " + orderNoText + "\n\n 결제 완료 건수 : " + i + "건 생성완료"
 	
-	RequestObject slackWebhook = findTestObject('결제 자동화/결제 API/webhook', [('Desc') : descText])
+	RequestObject slackWebhook = findTestObject('z_archive/결제 자동화/결제 API/webhook', [('Desc') : descText])
 	
 	WS.sendRequest(slackWebhook)
 	}
