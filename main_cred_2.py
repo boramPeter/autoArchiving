@@ -62,7 +62,7 @@ def cred_check():
         return make_response("agit event error", 404)
 #==========================
 if __name__ == '__main__':
-    # logger = make_logger("daniel.js-flask")
+    # logger = make_logger("peter.js-flask")
     HOST = '127.0.0.1'
     PORT = 7070
     app.run(host=HOST, port=PORT, debug=True)
